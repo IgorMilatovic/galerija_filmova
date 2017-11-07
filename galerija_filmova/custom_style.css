@@ -1,0 +1,43 @@
+#big_box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 20px auto;
+	width: 97%;
+}
+
+p {
+	text-align: center;
+}
+
+.box {
+	margin: 0 5px 15px 5px;
+	border: 1px solid lightgrey;
+	box-shadow: 0 0 6px lightgrey;
+	width: 182px;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.slika {
+	width: 182px;
+	height: 268px;
+}
+
+.input_polje {
+	display: block; 
+	margin-top: 15px;
+}
+
+.input_url {
+	width: 600px;
+}
+
+#dugmic {
+	display: block; 
+	margin-top: 15px; 
+	background: lightblue;
+}

@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manipulacija</title>
+    <link rel="stylesheet" href="custom_style.css">
+</head>
+<body>
+    <div id="big_box">
+        <div class="box">
+            <p>Prohujalo sa vihorom</p>
+            <p>1939</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYWQwOWVkMGItMDU2Yy00YjIzLWJkMjEtNmVkZjE3MjMwYzEzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,652,1000_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Alien</p>
+            <p>1979</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDNhN2IxZWItNGEwYS00ZDNhLThiM2UtODU3NWJlZjBkYjQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>The Shining</p>
+            <p>1980</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Blade Runner</p>
+            <p>1982</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Groundhog Day</p>
+            <p>1993</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Gladijator</p>
+            <p>2000.</p>
+            <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcRuhegCaGHfcQc-Owpib9vGSO0hUlSUMTojO2s4ih8oXqHBw2ks" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Vanilla Sky</p>
+            <p>2001</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>batman begins</p>
+            <p>2005.</p>
+            <img src="http://www.gstatic.com/tv/thumb/movieposters/35903/p35903_p_v8_ay.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Ostrov</p>
+            <p>2006</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MzA0NjEyMF5BMl5BanBnXkFtZTgwNDAwMDY0MDE@._V1_UY268_CR4,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>No Country for Old Men</p>
+            <p>2007</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_UY268_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Sibir. Monamur</p>
+            <p>2011</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3NjQ1NDc0N15BMl5BanBnXkFtZTcwMjA4NzQ0Nw@@._V1_UY268_CR9,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>The Book Thief</p>
+            <p>2013</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BOTE3NzkyMjAyNF5BMl5BanBnXkFtZTgwMDc5MTE0MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div
+        ><div class="box">
+            <p>Thor: Ragnarok</p>
+            <p>2017</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>I, Tonya</p>
+            <p>2017</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjYzZGMzYjItMjY5OS00ZTM0LTliNzMtNzg5OTE3NmQyNGY4XkEyXkFqcGdeQXVyNzU0NjU2Mzc@._V1_SY1000_CR0,0,679,1000_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Ratovi Zvezde: Epizoda 8 - Poslednji Džedaj</p>
+            <p style="margin-top: -4px;">2017</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SY1000_CR0,0,675,1000_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+        <div class="box">
+            <p>Blade Runner 2049</p>
+            <p>2017</p>
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="plakat filma" class="slika">
+        </div>
+    </div> --> <!-- big_box ends -->
+
+    
+    <!-- <script src="cas7.js"></script>
+</body> -->
