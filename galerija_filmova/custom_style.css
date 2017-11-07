@@ -20,11 +20,24 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	filter: sepia(100%);
+	background-color: black;
+	color: white;
+	text-shadow: 0 0 2px white;
 }
 
 .slika {
 	width: 182px;
 	height: 268px;
+}
+
+.box:hover {
+	transform: scale(1.05, 1.05);
+	-webkit-transition: 1.2s;
+	filter: none;
+	background-color: white;
+	text-shadow: none;
+	color: black;
 }
 
 .input_polje {
@@ -41,3 +54,5 @@ p {
 	margin-top: 15px; 
 	background: lightblue;
 }
+
+
