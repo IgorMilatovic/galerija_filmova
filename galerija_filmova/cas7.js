@@ -313,7 +313,7 @@ film.onload = function () {
 			
 			// sredjivanje margine zbog simetrije sa elementima ostalih box-ova 
 			// jer se naziv lomi u dva reda i gura godinu i sliku ka dole
-			if (i == 14) {
+			if (filmObjReceiverArr[i].naziv == "Ratovi Zvezde: Epizoda 8 - Poslednji Džedaj") {
 				paraGodina.style.marginTop = '-4px';
 			};
 			
